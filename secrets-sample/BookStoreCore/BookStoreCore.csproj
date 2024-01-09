@@ -40,9 +40,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Dockerfile" />
     <None Remove="DockerImages\SqlServer\" />
     <None Remove="OpenTelemetry.Contrib.Extensions.AWSXRay" />
     <None Remove="OpenTelemetry.Contrib.Instrumentation.AWS" />
+    <None Remove="otel-config.yaml" />
+    <None Remove="prometheus.yml" />
   </ItemGroup>
   <ItemGroup>
     <_ContentIncludedByDefault Remove="Pages\SecretsManager\Index.cshtml" />
